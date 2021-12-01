@@ -42,12 +42,16 @@ body {
   grid-column: 2/4;
   grid-row: 2/2;
   color: white;
-  display: block;
  }
 
  .card__5 {
   grid-column: 1/1;
   grid-row: 2/2;
+ }
+
+ .card--flex{
+   display:flex;
+   align-items: center;
  }
 
 .card--violet {
@@ -91,4 +95,9 @@ body {
 .card__par--standard {
   font-size: 14px;
   font-weight: normal;
+}
+
+.info {
+  padding-left: 30px;
+  align-self: center;
 }
